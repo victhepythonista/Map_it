@@ -7,7 +7,7 @@ A super simple  mapping software for 2D games.
 - I had not used engines like Godot or Unity before, but it did the job and I was happy :)
 
 # USE
--run the MAPIT.py  file
+- run the MAPIT.py  file
   'python MAPIT.py'
   
 # DEPENDENCIES
