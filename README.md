@@ -5,7 +5,7 @@ A super simple  mapping software for 2D games.
 - Basically I used it to draw rects for my the Pygame  games
 - It made work easier than drawing on paper and then transferring the data into the code
 - I had not used engines like Godot or Unity before, but it did the job and I was happy :)
-
+![Alt text](mapit_ex_1.png "Exapmle")
 # USE
 - run the MAPIT.py  file
   'python MAPIT.py'
