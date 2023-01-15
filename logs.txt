@@ -1,0 +1,2 @@
+pygame 2.0.0 (SDL 2.0.12, python 3.9.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html

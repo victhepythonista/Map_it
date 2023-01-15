@@ -1,0 +1,35 @@
+
+## for opening a map
+MainManager:
+    id:mainmanager
+    MainScreen:
+        id:mainscreen
+        name:'mainscreen'
+
+        GridLayout:
+            pos_hint:{'x':0, 'y':.9}
+            size_hint:1,.1
+            cols:3
+            Button:
+                text:'OPEN'
+                on_press:
+                    mainmanager.open_map(filechooser.selection,app)
+                    app.stop()
+            Button:
+                text:'CLOSE'
+                on_press:
+                    mainmanager.save_last_path(filechooser.path)
+                    app.stop()
+            Button:
+                text:'VIEW'
+                on_press:
+                    filechooser.view_mode = 'list' if filechooser.view_mode == 'icon' else 'icon'
+        FileChooser:
+            id:filechooser
+
+            path:mainmanager.get_last_path()
+            size_hint:1,.8
+            show_hidden:False
+            #filters:["!*.sys"]
+            FileChooserListLayout
+            FileChooserIconLayout

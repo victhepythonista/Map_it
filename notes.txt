@@ -1,0 +1,8 @@
+
+
+--------------------------
+    MAP-IT
+--------------------------
+
+A software designed for pygame developers to effortlessly create maps for games based on rect objects
+the maps are saved with the '.pmp' extension
